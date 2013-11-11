@@ -1,5 +1,9 @@
-<ul>
-    <li ng-repeat="story in stories.items">
-        <p>{{story.text}}</p>
-    </li>
+<h1 ng-show="isLoading">Loading...</h1>
+<ul id="stories-list" class="list-group">
+    <a href="{{getStoryLink(story)}}" target="_BLANK" class="list-group-item" ng-repeat="story in stories.items | filter:searchText | filter:phaseCheck">
+        <span class="badge">{{story.id}}</span>
+        <h4 class="list-group-item-heading">{{story.text}}</h4>
+        <div class="story-phase">Phase: {{story.phase.name}}</div>
+        <div class="story-owner">Owner: {{story.owner.name}}</div>
+    </a>
 </ul>

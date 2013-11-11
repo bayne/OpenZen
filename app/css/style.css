@@ -3,8 +3,7 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
 }
-
-/* Navbar */
-.navbar {
-    margin-bottom: 20px;
+/* Search bar*/
+#search-bar {
+    margin-bottom: 30px;
 }
