@@ -1,0 +1,5 @@
+# OSX
+.DS_Store
+
+# Ignore the real config file
+app/config/config.js
