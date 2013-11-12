@@ -20,6 +20,17 @@ assume this is accessible at localhost:8080 for now.
 1. Navigate to localhost:8080
 1. Have pancakes
 
+## Screenshots
+
+### Default view: all stories not in Backlog or Live
+![](https://raw.github.com/suw/OpenZen/master/content/no-filter.png)
+
+### Search by phase name
+![](https://raw.github.com/suw/OpenZen/master/content/phase-filter.png)
+
+### Search by story name
+![](https://raw.github.com/suw/OpenZen/master/content/story-name-filter.png)
+
 ## Todo
 
 * Tests!
