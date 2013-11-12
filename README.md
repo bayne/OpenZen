@@ -1,24 +1,15 @@
 # OpenZen
 
-Simple viewer for AgileZen
+OpenZen is a read-only viewer for stories on [AgileZen](https://agilezen.com)
+focused on minimalism.
 
 ## Todo
 
-[x] Set up AgileZen stories resource
+* Add additional fields
 
-**Filters**
+    * Status
 
-  [ ] Name
-    
-  [ ] Status
-    
-  [ ] Phase
-    
-  [ ] Owner
+    * Phase
 
-## Some day
-
-[ ] Allow user to browse through all API returned pages to allow (aka allow
-        more than 100 reponses)
-        
-[ ] Fuzzy search
+* Allow user to browse through all API returned pages to allow (aka allow
+browsing if there are more than 1,000 stories)
