@@ -34,13 +34,9 @@ assume this is accessible at localhost:8080 for now.
 ## Todo
 
 * Tests!
-
 * Add additional fields
-
     * Status
-
     * Phase
-
 * Allow user to browse through all API returned pages to allow (aka allow
 browsing if there are more than 1,000 stories)
 
